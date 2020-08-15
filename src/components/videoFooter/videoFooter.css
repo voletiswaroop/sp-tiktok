@@ -1,7 +1,7 @@
-.tiktok-footer {
+.user-track-wrapper {
   position: absolute;
   width: 96%;
-  bottom: 0px;
+  bottom: 55px;
   z-index: 9;
   color: white;
   display: flex;
@@ -10,7 +10,7 @@
   padding: 10px 2%;
 }
 
-.user-track-wrapper {
+.user-track-container {
   width: 60%;
 }
 
@@ -29,7 +29,7 @@
   font-size: 12px;
 }
 
-.tiktok-footer .fa-compact-disc {
+.user-track-wrapper .fa-compact-disc {
   font-size: 30px;
   animation: rotateDisc 5s infinite linear
 }

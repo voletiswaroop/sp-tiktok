@@ -3,7 +3,7 @@
   padding-right: 2%;
   right: 0;
   height: 100vh;
-  bottom: 60px;
+  bottom: 109px;
   z-index: 9;
   color: white;
   display: flex;
@@ -19,6 +19,7 @@
   display: block;
   opacity: .9;
   margin-bottom: 2px;
+  cursor: pointer;
 }
 
 .profile {
@@ -41,4 +42,8 @@
   transform: translate(-50%, 0);
   bottom: -8px;
   text-shadow: none;
+}
+
+.tiktok-moreinfo .liked {
+  color: red;
 }

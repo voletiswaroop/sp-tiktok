@@ -1,14 +1,17 @@
-.tiktok-player-wrapper {
-  max-width: 600px;
-  margin: auto;
-}
-
 .tiktok-player-wrapper .media-wrapper {
   position: relative;
   height: 100vh;
   overflow: hidden;
+  border-bottom: 1px solid #ccc;
 }
 
 .tiktok-player-wrapper img {
   max-width: 100%;
+}
+
+.tiktok-player-wrapper .media-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: #000;
 }

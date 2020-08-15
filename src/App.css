@@ -20,3 +20,8 @@ html {
 i {
   font-size: 30px;
 }
+
+.tiktok-wrapper {
+  max-width: 400px;
+  margin: auto;
+}

@@ -1,0 +1,45 @@
+.tiktok-footer {
+  position: absolute;
+  width: 96%;
+  bottom: 0px;
+  z-index: 9;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px 2%;
+}
+
+.user-track-wrapper {
+  width: 60%;
+}
+
+.track-info {
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.track-info i {
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.track-info .track-name {
+  font-size: 12px;
+}
+
+.tiktok-footer .fa-compact-disc {
+  font-size: 30px;
+  animation: rotateDisc 5s infinite linear
+}
+
+@keyframes rotateDisc {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}

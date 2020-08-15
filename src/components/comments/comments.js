@@ -10,10 +10,10 @@ export default class comments extends Component {
   render() {
     return (
       <section className="comments-wrapper">
-        <p className="comments-count">21 comments <i class="fas fa-times close-comments" onClick={(event) => this.toggleComments(event)}></i></p>
+        <p className="comments-count">21 comments <i className="fas fa-times close-comments" onClick={(event) => this.toggleComments(event)}></i></p>
         <div className="comments-container">
           <div className="comment-details">
-            <i class="fas fa-user-circle"></i>
+            <i className="fas fa-user-circle"></i>
             <div className="comment-group">
               <p className="user-name">Swaroop</p>
               <p className="user-comment">This made my day. Keep doing!</p>
@@ -21,7 +21,7 @@ export default class comments extends Component {
             </div>
           </div>
           <div className="comment-details">
-            <i class="fas fa-user-circle"></i>
+            <i className="fas fa-user-circle"></i>
             <div className="comment-group">
               <p className="user-name">Swaroop</p>
               <p className="user-comment">This made my day. Keep doing!</p>
@@ -29,7 +29,7 @@ export default class comments extends Component {
             </div>
           </div>
           <div className="comment-details">
-            <i class="fas fa-user-circle"></i>
+            <i className="fas fa-user-circle"></i>
             <div className="comment-group">
               <p className="user-name">Swaroop</p>
               <p className="user-comment">This made my day. Keep doing!</p>
@@ -37,7 +37,7 @@ export default class comments extends Component {
             </div>
           </div>
           <div className="comment-details">
-            <i class="fas fa-user-circle"></i>
+            <i className="fas fa-user-circle"></i>
             <div className="comment-group">
               <p className="user-name">Swaroop</p>
               <p className="user-comment">This made my day. Keep doing!</p>
@@ -45,7 +45,7 @@ export default class comments extends Component {
             </div>
           </div>
           <div className="comment-details">
-            <i class="fas fa-user-circle"></i>
+            <i className="fas fa-user-circle"></i>
             <div className="comment-group">
               <p className="user-name">Swaroop</p>
               <p className="user-comment">This made my day. Keep doing!</p>
@@ -53,7 +53,7 @@ export default class comments extends Component {
             </div>
           </div>
           <div className="comment-details">
-            <i class="fas fa-user-circle"></i>
+            <i className="fas fa-user-circle"></i>
             <div className="comment-group">
               <p className="user-name">Swaroop</p>
               <p className="user-comment">This made my day. Keep doing!</p>
@@ -61,7 +61,7 @@ export default class comments extends Component {
             </div>
           </div>
           <div className="comment-details">
-            <i class="fas fa-user-circle"></i>
+            <i className="fas fa-user-circle"></i>
             <div className="comment-group">
               <p className="user-name">Swaroop</p>
               <p className="user-comment">This made my day. Keep doing!</p>
@@ -69,7 +69,7 @@ export default class comments extends Component {
             </div>
           </div>
           <div className="comment-details">
-            <i class="fas fa-user-circle"></i>
+            <i className="fas fa-user-circle"></i>
             <div className="comment-group">
               <p className="user-name">Swaroop</p>
               <p className="user-comment">This made my day. Keep doing!</p>
@@ -77,7 +77,7 @@ export default class comments extends Component {
             </div>
           </div>
           <div className="comment-details">
-            <i class="fas fa-user-circle"></i>
+            <i className="fas fa-user-circle"></i>
             <div className="comment-group">
               <p className="user-name">Swaroop</p>
               <p className="user-comment">This made my day. Keep doing!</p>
@@ -85,7 +85,7 @@ export default class comments extends Component {
             </div>
           </div>
           <div className="comment-details">
-            <i class="fas fa-user-circle"></i>
+            <i className="fas fa-user-circle"></i>
             <div className="comment-group">
               <p className="user-name">Swaroop</p>
               <p className="user-comment">This made my day. Keep doing!</p>
@@ -95,8 +95,8 @@ export default class comments extends Component {
         </div>
         <div className="add-comment">
           <input type="text" placeholder="Say something" />
-          <i class="fas fa-at"></i>
-          <i class="far fa-smile"></i>
+          <i className="fas fa-at"></i>
+          <i className="far fa-smile"></i>
         </div>
       </section>
     )

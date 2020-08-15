@@ -1,2 +1,3 @@
 # tiktok
-Create React based Tiktok 
+
+Created React based Tiktok clone

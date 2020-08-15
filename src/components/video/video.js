@@ -4,7 +4,6 @@ import MediaOne from '../../assets/images/1.jpg'
 import MediaTwo from '../../assets/images/2.jpg'
 import VideoMoreInfo from '../videoMoreInfo/videoMoreInfo'
 import VideoFooter from '../videoFooter/videoFooter'
-import Footer from '../Footer/Footer'
 
 export default class video extends Component {
 
@@ -27,7 +26,7 @@ export default class video extends Component {
 
   render() {
     return (
-      <main className="tiktok-player-wrapper">
+      <section className="tiktok-player-wrapper">
         <div className="media-wrapper">
           <div className="media-container"><img src={MediaOne} /></div>
           <VideoMoreInfo />
@@ -38,8 +37,7 @@ export default class video extends Component {
           <VideoMoreInfo />
           <VideoFooter />
         </div>
-        <Footer />
-      </main>
+      </section>
     )
   }
 }

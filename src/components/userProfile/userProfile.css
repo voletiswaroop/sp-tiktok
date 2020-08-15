@@ -1,0 +1,13 @@
+.user-profile-wrapper {
+  position: absolute;
+  /* transform: translate3d(0, 120%, 0); */
+  background: #eee;
+  border-radius: 10px 10px 0px 0px;
+  max-height: 60vh;
+  width: 94%;
+  z-index: 10;
+  padding: 3%;
+  height: 100%;
+  transition: all 0.2s ease;
+  overflow-y: auto;
+}

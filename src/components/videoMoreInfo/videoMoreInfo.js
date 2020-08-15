@@ -10,6 +10,7 @@ export default class videoMoreInfo extends Component {
       likes: 1520
     }
   }
+
   getClicks() {
     if (document.getElementsByClassName('fa-heart')[0].classList.contains('liked')) {
       this.setState({ likes: this.state.likes - 1 })
@@ -19,6 +20,11 @@ export default class videoMoreInfo extends Component {
       document.getElementsByClassName('fa-heart')[0].classList.add('liked')
     }
   }
+
+  toggleComments(event) {
+    event.currentTarget.closest('.tiktok-moreinfo').nextSibling.classList.add('active-comments-widget')
+  }
+
   render() {
     return (
       <aside className="tiktok-moreinfo-wrapper">
@@ -27,8 +33,8 @@ export default class videoMoreInfo extends Component {
             <img className="profilepic" src={ProfilePic} alt="User profile picture" />
             <i className="fas fa-plus-circle"></i>
           </span>
-          <span className="likes"><i className="fas fa-heart" onClick={() => this.getClicks()}></i>{this.state.likes}</span>
-          <span className="comments"><i className="fas fa-comment-dots"></i>20</span>
+          <span className="likes" onClick={() => this.getClicks()}><i className="fas fa-heart"></i>{this.state.likes}</span>
+          <span className="comments" onClick={(event) => this.toggleComments(event)}><i className="fas fa-comment-dots"></i>21</span>
           <span className="share"><i className="fas fa-share"></i>21</span>
         </div>
         <CommentSection />

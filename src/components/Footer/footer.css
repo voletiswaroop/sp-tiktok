@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   position: fixed;
-  z-index: 9;
+  z-index: 12;
   bottom: 0;
   color: #fff;
   width: 88%;
@@ -39,7 +39,7 @@
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 100px;
-  background-color: #ccc; 
+  background-color: #ccc;
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;

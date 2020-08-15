@@ -24,4 +24,5 @@ i {
 .tiktok-wrapper {
   max-width: 400px;
   margin: auto;
+  position: relative;
 }

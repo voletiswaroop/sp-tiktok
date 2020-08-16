@@ -11,7 +11,7 @@ export default class tiktokPanel extends Component {
   render() {
     return (
       <section className="tiktok-panel">
-        <Tabs selected={3}>
+        <Tabs selected={0}>
           <Panel dataIcon="fas fa-home" title="Home"><TitkTokVideos /></Panel>
           <Panel dataIcon="fas fa-search" title="Discover"> <TitkTokVideos /></Panel>
           <Panel dataIcon="fas fa-plus-square" title=""><CreateVideo /></Panel>

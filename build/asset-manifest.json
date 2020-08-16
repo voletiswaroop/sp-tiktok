@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sp-tiktok/static/css/main.389b0c2f.chunk.css",
-    "main.js": "/sp-tiktok/static/js/main.60d6abf8.chunk.js",
-    "main.js.map": "/sp-tiktok/static/js/main.60d6abf8.chunk.js.map",
+    "main.js": "/sp-tiktok/static/js/main.fa0d7308.chunk.js",
+    "main.js.map": "/sp-tiktok/static/js/main.fa0d7308.chunk.js.map",
     "runtime-main.js": "/sp-tiktok/static/js/runtime-main.85ded9cf.js",
     "runtime-main.js.map": "/sp-tiktok/static/js/runtime-main.85ded9cf.js.map",
     "static/js/2.69aa9568.chunk.js": "/sp-tiktok/static/js/2.69aa9568.chunk.js",
     "static/js/2.69aa9568.chunk.js.map": "/sp-tiktok/static/js/2.69aa9568.chunk.js.map",
     "index.html": "/sp-tiktok/index.html",
-    "precache-manifest.6ee0e7ff706c697ec8b36c0413717ad5.js": "/sp-tiktok/precache-manifest.6ee0e7ff706c697ec8b36c0413717ad5.js",
+    "precache-manifest.72b5b4ff7614d251644e41e9f92be10c.js": "/sp-tiktok/precache-manifest.72b5b4ff7614d251644e41e9f92be10c.js",
     "service-worker.js": "/sp-tiktok/service-worker.js",
     "static/css/main.389b0c2f.chunk.css.map": "/sp-tiktok/static/css/main.389b0c2f.chunk.css.map",
     "static/js/2.69aa9568.chunk.js.LICENSE.txt": "/sp-tiktok/static/js/2.69aa9568.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.85ded9cf.js",
     "static/js/2.69aa9568.chunk.js",
     "static/css/main.389b0c2f.chunk.css",
-    "static/js/main.60d6abf8.chunk.js"
+    "static/js/main.fa0d7308.chunk.js"
   ]
 }

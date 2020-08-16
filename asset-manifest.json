@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sp-tiktok/static/css/main.a1e4d5a6.chunk.css",
-    "main.js": "/sp-tiktok/static/js/main.98b9b559.chunk.js",
-    "main.js.map": "/sp-tiktok/static/js/main.98b9b559.chunk.js.map",
+    "main.css": "/sp-tiktok/static/css/main.389b0c2f.chunk.css",
+    "main.js": "/sp-tiktok/static/js/main.60d6abf8.chunk.js",
+    "main.js.map": "/sp-tiktok/static/js/main.60d6abf8.chunk.js.map",
     "runtime-main.js": "/sp-tiktok/static/js/runtime-main.85ded9cf.js",
     "runtime-main.js.map": "/sp-tiktok/static/js/runtime-main.85ded9cf.js.map",
-    "static/js/2.d0929ec4.chunk.js": "/sp-tiktok/static/js/2.d0929ec4.chunk.js",
-    "static/js/2.d0929ec4.chunk.js.map": "/sp-tiktok/static/js/2.d0929ec4.chunk.js.map",
+    "static/js/2.69aa9568.chunk.js": "/sp-tiktok/static/js/2.69aa9568.chunk.js",
+    "static/js/2.69aa9568.chunk.js.map": "/sp-tiktok/static/js/2.69aa9568.chunk.js.map",
     "index.html": "/sp-tiktok/index.html",
-    "precache-manifest.b11f08cbd29cc3ebaeb0fa6344208714.js": "/sp-tiktok/precache-manifest.b11f08cbd29cc3ebaeb0fa6344208714.js",
+    "precache-manifest.6ee0e7ff706c697ec8b36c0413717ad5.js": "/sp-tiktok/precache-manifest.6ee0e7ff706c697ec8b36c0413717ad5.js",
     "service-worker.js": "/sp-tiktok/service-worker.js",
-    "static/css/main.a1e4d5a6.chunk.css.map": "/sp-tiktok/static/css/main.a1e4d5a6.chunk.css.map",
-    "static/js/2.d0929ec4.chunk.js.LICENSE.txt": "/sp-tiktok/static/js/2.d0929ec4.chunk.js.LICENSE.txt",
+    "static/css/main.389b0c2f.chunk.css.map": "/sp-tiktok/static/css/main.389b0c2f.chunk.css.map",
+    "static/js/2.69aa9568.chunk.js.LICENSE.txt": "/sp-tiktok/static/js/2.69aa9568.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/sp-tiktok/static/media/1.22d52aa3.jpg",
     "static/media/2.jpg": "/sp-tiktok/static/media/2.faf59818.jpg",
     "static/media/App.css": "/sp-tiktok/static/media/GothamHTF-Book.fae9356a.woff",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.85ded9cf.js",
-    "static/js/2.d0929ec4.chunk.js",
-    "static/css/main.a1e4d5a6.chunk.css",
-    "static/js/main.98b9b559.chunk.js"
+    "static/js/2.69aa9568.chunk.js",
+    "static/css/main.389b0c2f.chunk.css",
+    "static/js/main.60d6abf8.chunk.js"
   ]
 }

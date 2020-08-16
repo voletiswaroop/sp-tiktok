@@ -1,0 +1,98 @@
+.loggedinuser-profile-wrapper {
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  height: calc(100vh - 55px);
+  overflow-y: auto;
+}
+
+.loggedinuser-profile-wrapper .header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 15px;
+}
+
+.loggedinuser-profile-wrapper i {
+  display: inline-block;
+  margin: 0 0 0 5px;
+}
+
+.loggedinuser-profile-wrapper .user-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.loggedinuser-profile-wrapper img {
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+.loggedinuser-profile-wrapper .user-videos-count {
+  margin: 15px 0;
+  padding: 5px 10px;
+  background: #eee;
+  font-size: 14px;
+}
+
+.loggedinuser-profile-wrapper .profile-followers-details {
+  display: flex;
+}
+
+.loggedinuser-profile-wrapper .profile-settings {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.loggedinuser-profile-wrapper .profile-settings .edit-profile {
+  background: #FE2D56;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 12px;
+}
+
+.loggedinuser-profile-wrapper .profile-settings i {
+  font-size: 13px;
+  border: 1px solid #ccc;
+  padding: 9px 12px;
+  margin-left: 10px;
+}
+
+.loggedinuser-profile-wrapper .profile-followers-details {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.loggedinuser-profile-wrapper .profile-followers-details p {
+  width: calc(100%/3);
+  font-size: 14px;
+  color: #8A8A8A;
+}
+
+.loggedinuser-profile-wrapper .profile-followers-details span {
+  display: block;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.loggedinuser-profile-wrapper .user-followers {
+  border: solid #ccc;
+  border-width: 0px 1px;
+}
+
+.loggedinuser-profile-wrapper .tabs-heading {
+  display: flex;
+  justify-content: space-around;
+  border: solid #ccc;
+  border-width: 1px 0;
+}
+
+.loggedinuser-profile-wrapper .tabs-content {
+  padding: 15px;
+}

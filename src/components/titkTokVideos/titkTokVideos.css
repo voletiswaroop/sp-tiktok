@@ -15,3 +15,18 @@
   height: 100vh;
   background: #000;
 }
+
+header {
+  position: fixed;
+  top: 30px;
+  z-index: 9;
+  color: #ccc;
+  width: 100%;
+  max-width: 425px;
+  text-align: center;
+  cursor: pointer;
+}
+
+header .active {
+  color: #fff;
+}

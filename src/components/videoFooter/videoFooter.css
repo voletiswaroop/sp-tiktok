@@ -20,6 +20,11 @@
   align-items: center;
 }
 
+.video-desc {
+  font-size: 14px;
+  margin: 7px 0;
+}
+
 .track-info i {
   padding-right: 5px;
   font-size: 12px;

@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import './App.css'
-import Header from './components/Header/Header'
-import Video from './components/video/video'
-import Footer from './components/Footer/Footer'
+import TiktokPanel from './components/tiktokPanel/tiktokPanel'
 
 class App extends Component {
   render() {
     return (
       <main className="tiktok-wrapper">
-        <Header />
-        <Video />
-        <Footer />
+        <TiktokPanel />
       </main>
     );
   }

@@ -1,6 +1,6 @@
 # tiktok clone
 
-Created reactJs based Tiktok clone. This project comes with default tiktok template and functionality,currently in some of the functionalities are working with dummy data. Im in the process of making it completely dynamic. 
+Created reactJs based Tiktok clone. This project comes with default tiktok template and functionality, currently in some of the functionalities are working with dummy data. Im in the process of making it completely dynamic. 
 
 ## Demo
 Visit Tiktok clone webapp here: https://voletiswaroop.github.io/sp-tiktok

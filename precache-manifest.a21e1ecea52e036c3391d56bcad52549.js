@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "989a364932bbf43baa38b568bdac8d84",
+    "revision": "a68e80d0e7cf21cca3eb5b94bdca13fd",
     "url": "/sp-tiktok/index.html"
   },
   {
-    "revision": "b8a32b589b7ca364d0c0",
-    "url": "/sp-tiktok/static/css/main.beaf9ed3.chunk.css"
+    "revision": "cdf07ec4d2d287b5867f",
+    "url": "/sp-tiktok/static/css/main.1071d5c5.chunk.css"
   },
   {
     "revision": "a2c33238e9b7886a8962",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sp-tiktok/static/js/2.69aa9568.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8a32b589b7ca364d0c0",
-    "url": "/sp-tiktok/static/js/main.2b9dcb13.chunk.js"
+    "revision": "cdf07ec4d2d287b5867f",
+    "url": "/sp-tiktok/static/js/main.69065b2d.chunk.js"
   },
   {
     "revision": "91a82287f57d5931a60a",

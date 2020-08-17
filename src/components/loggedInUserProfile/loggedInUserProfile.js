@@ -9,9 +9,9 @@ export default class loggedInUserProfile extends Component {
     return (
       <section className="loggedinuser-profile-wrapper">
         <div className="header">
-          <i class="fas fa-user-plus"></i>
-          <p className="user-name">Swaroop Gupta Voleti<i class="fas fa-caret-down"></i></p>
-          <i class="fas fa-ellipsis-v"></i>
+          <i className="fas fa-user-plus"></i>
+          <p className="user-name">Swaroop Gupta Voleti<i className="fas fa-caret-down"></i></p>
+          <i className="fas fa-ellipsis-v"></i>
         </div>
         <div className="user-details">
           <img src={ProfilePic} alt="Swaroop gupta voleti" />
@@ -25,7 +25,7 @@ export default class loggedInUserProfile extends Component {
           </div>
           <div className="profile-settings">
             <div className="edit-profile">Edit profile</div>
-            <i class="far fa-bookmark"></i>
+            <i className="far fa-bookmark"></i>
           </div>
         </div>
         <div className="user-video-gallery">

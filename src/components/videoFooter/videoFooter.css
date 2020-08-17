@@ -1,13 +1,13 @@
 .user-track-wrapper {
   position: absolute;
-  width: 96%;
-  bottom: 55px;
+  width: 95%;
+  bottom: 60px;
   z-index: 9;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 10px 2%;
+  padding: 10px 3% 10px 2%;
 }
 
 .user-track-container {

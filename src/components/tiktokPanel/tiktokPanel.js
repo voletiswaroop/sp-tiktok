@@ -13,7 +13,7 @@ export default class tiktokPanel extends Component {
       <section className="tiktok-panel">
         <Tabs selected={0}>
           <Panel dataIcon="fas fa-home" title="Home"><TitkTokVideos /></Panel>
-          <Panel dataIcon="fas fa-search" title="Discover"> <TitkTokVideos /></Panel>
+          <Panel dataIcon="fas fa-search" title="Discover"><TitkTokVideos /></Panel>
           <Panel dataIcon="fas fa-plus-square" title=""><CreateVideo /></Panel>
           <Panel dataIcon="fas fa-inbox" title="Inbox"><Notifications /></Panel>
           <Panel dataIcon="fas fa-user" title="Me"><UserProfile /></Panel>

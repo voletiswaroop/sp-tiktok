@@ -54,6 +54,7 @@
   color: #fff;
   padding: 10px 15px;
   font-size: 12px;
+  font-weight: bolder;
 }
 
 .loggedinuser-profile-wrapper .profile-settings i {
@@ -95,4 +96,9 @@
 
 .loggedinuser-profile-wrapper .tabs-content {
   padding: 15px;
+}
+
+.loggedinuser-profile-wrapper .user-video-gallery li {
+  width: 50%;
+  text-align: center;
 }

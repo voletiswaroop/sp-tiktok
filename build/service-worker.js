@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sp-tiktok/precache-manifest.72b5b4ff7614d251644e41e9f92be10c.js"
+  "/sp-tiktok/precache-manifest.a21e1ecea52e036c3391d56bcad52549.js"
 );
 
 self.addEventListener('message', (event) => {

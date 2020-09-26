@@ -1,4 +1,4 @@
- .tiktok-panel>.tabs-wrapper>.tabs-heading {
+ .tiktok-panel>div>ul {
    display: flex;
    justify-content: space-between;
    position: fixed;

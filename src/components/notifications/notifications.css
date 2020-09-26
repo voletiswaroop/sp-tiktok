@@ -1,0 +1,81 @@
+.notifications-wrapper {
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  height: calc(100vh - 55px);
+  overflow-y: auto;
+}
+
+.notifications-wrapper .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px 0;
+}
+
+.notifications-wrapper .header i {
+  display: inline-block;
+  margin: 0 0 0 5px;
+}
+
+.notifications-container {
+  overflow-y: auto;
+  padding: 0 15px 15px;
+}
+
+.notification-date {
+  color: #8A8A8A;
+  margin: 25px 0 10px;
+  font-size: 13px;
+}
+
+.notification-details {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.notification-details .empty-cell {
+  flex-grow: 1;
+}
+
+.notification-details i {
+  font-size: 40px;
+}
+
+.notification-details.lives {
+  cursor: pointer;
+}
+
+.notification-group {
+  margin-left: 15px;
+}
+
+.notification-group .user-name {
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.notification-group .user-notification span,
+.notification-group .user-notification {
+  color: #8A8A8A;
+  font-size: 13px;
+}
+
+.notification-group .notification-date {
+  margin-top: 5px;
+  color: #999;
+}
+
+.notifications-wrapper .follow-btn {
+  background: #FE2D56;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.notifications-wrapper .follow-btn.following {
+  background: transparent;
+  color: #000;
+  border: 1px solid #ccc;
+  cursor: auto;
+}

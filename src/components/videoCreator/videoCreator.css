@@ -1,0 +1,10 @@
+.videocreator-wrapper {
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  height: calc(100vh - 55px);
+  transition: all 0.2s ease;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}

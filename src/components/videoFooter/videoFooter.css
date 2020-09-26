@@ -1,0 +1,50 @@
+.user-track-wrapper {
+  position: absolute;
+  width: 95%;
+  bottom: 60px;
+  z-index: 9;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px 3% 10px 2%;
+}
+
+.user-track-container {
+  width: 60%;
+}
+
+.track-info {
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.video-desc {
+  font-size: 14px;
+  margin: 7px 0;
+}
+
+.track-info i {
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.track-info .track-name {
+  font-size: 12px;
+}
+
+.user-track-wrapper .fa-compact-disc {
+  font-size: 30px;
+  animation: rotateDisc 5s infinite linear
+}
+
+@keyframes rotateDisc {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}

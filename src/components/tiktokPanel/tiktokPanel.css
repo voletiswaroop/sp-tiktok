@@ -1,0 +1,70 @@
+ .tiktok-panel>div>ul {
+   display: flex;
+   justify-content: space-between;
+   position: fixed;
+   z-index: 12;
+   bottom: 0;
+   color: #fff;
+   width: 92%;
+   max-width: 385px;
+   background: #333;
+   padding: 0 20px;
+   text-align: center;
+   border-top: 2px solid #ccc;
+ }
+
+ .tiktok-panel li {
+   display: block;
+   font-size: 12px;
+   opacity: 0.5;
+   cursor: pointer;
+   padding: 10px 0;
+ }
+
+ .tiktok-panel li.selected {
+   opacity: 1;
+ }
+
+ .tiktok-panel i {
+   display: block;
+   margin-bottom: 2px;
+   font-size: 23px;
+ }
+
+ .tiktok-panel .fa-plus-square {
+   font-size: 30px;
+ }
+
+ .tooltip {
+   position: relative;
+   display: inline-block;
+   border-bottom: 1px dotted black;
+   cursor: pointer;
+ }
+
+ .tooltip .tooltiptext {
+   visibility: hidden;
+   width: 100px;
+   background-color: #ccc;
+   border-radius: 6px;
+   padding: 5px 0;
+   position: absolute;
+   bottom: 150%;
+   left: 50%;
+   transform: translate(-50%, 10px);
+ }
+
+ .tooltip .tooltiptext::after {
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   margin-left: -5px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: #ccc transparent transparent transparent;
+ }
+
+ .tooltip:hover .tooltiptext {
+   visibility: visible;
+ }

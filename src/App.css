@@ -1,0 +1,35 @@
+@font-face {
+  font-family: GothamHTF;
+  src: url('./assets/fonts/GothamHTF-Book.woff');
+
+  font-style: normal
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: hidden;
+  font-family: sans-serif;
+  overflow-y: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: GothamHTF;
+  font-size: 16px;
+}
+
+i {
+  font-size: 30px;
+}
+
+main {
+  background: #F8F8F8;
+  border-radius: 10px 10px 0px 0px;
+  max-width: 425px;
+  margin: auto;
+  position: relative;
+}

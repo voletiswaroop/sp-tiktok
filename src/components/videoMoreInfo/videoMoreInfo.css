@@ -1,0 +1,62 @@
+.tiktok-moreinfo-wrapper {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.tiktok-moreinfo {
+  position: absolute;
+  padding-right: 2%;
+  right: 0;
+  height: 100vh;
+  bottom: 115px;
+  z-index: 9;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-direction: column;
+  font-size: 14px;
+  text-align: center;
+}
+
+.tiktok-moreinfo i {
+  padding-top: 20px;
+  display: block;
+  opacity: .9;
+  margin-bottom: 2px;
+  font-size: 25px;
+}
+
+.profile {
+  max-width: 40px;
+  position: relative;
+}
+
+.profilepic {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  max-height: 40px;
+}
+
+.tiktok-moreinfo span {
+  cursor: pointer;
+}
+
+.tiktok-moreinfo .fa-plus-circle {
+  position: absolute;
+  font-size: 14px;
+  color: #f58200;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: -8px;
+  text-shadow: none;
+}
+
+.tiktok-moreinfo .liked {
+  color: red;
+}

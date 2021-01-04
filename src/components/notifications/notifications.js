@@ -53,7 +53,7 @@ export default class notifications extends Component {
               <p className="user-name">Top Lives</p>
               <p className="user-notification"> <span> 5w</span></p>
             </div>
-            <p className="empty-cell"></p><i class="fas fa-chevron-right"></i>
+            <p className="empty-cell"></p><i className="fas fa-chevron-right"></i>
           </div>
           <div className="notification-details">
             <i className="fas fa-user-circle"></i>

@@ -23,7 +23,9 @@ export default class video extends Component {
       scrollPosition = scrollDirection <= 0 ? 0 : scrollDirection;
     }, false);
   }
-
+  componentWillUnmount() {
+    window.removeEventListener("scroll", false);
+  }
   render() {
     return (
       <Fragment>

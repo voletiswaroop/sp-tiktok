@@ -47,9 +47,13 @@
   font-size: 20px;
   color: #333;
   position: absolute;
-  right: 13%;
+  right: 23%;
   top: 50%;
   transform: translate(0, -50%);
+}
+
+.add-comment i:nth-child(3) {
+  right: 13%;
 }
 
 .add-comment i:last-child {

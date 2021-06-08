@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './videoMoreInfo.css'
-import ProfilePic from '../../assets/images/profile.png'
+import ProfilePic from '../../assets/images/profile.jpg'
 import CommentSection from '../comments/comments'
 import NonLoggedInUserProfile from '../nonLoggedInUserProfile/nonLoggedInUserProfile'
 

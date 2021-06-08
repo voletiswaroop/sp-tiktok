@@ -1,8 +1,15 @@
+.tiktok-player-wrapper {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
 .tiktok-player-wrapper .media-wrapper {
   position: relative;
   height: 100vh;
   overflow: hidden;
   border-bottom: 1px solid #ccc;
+  scroll-snap-align: start;
 }
 
 .tiktok-player-wrapper img {

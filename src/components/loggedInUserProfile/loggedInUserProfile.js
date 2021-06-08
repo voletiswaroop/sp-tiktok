@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './loggedInUserProfile.css'
-import ProfilePic from '../../assets/images/profile.png'
+import ProfilePic from '../../assets/images/profile.jpg'
 import Tabs from '../Tabs/Tabs'
 import Panel from '../Tabs/Panel'
 
@@ -15,7 +15,7 @@ export default class loggedInUserProfile extends Component {
         </div>
         <div className="user-details">
           <img src={ProfilePic} alt="Swaroop gupta voleti" />
-          <p className="user-info">@swaroopravs</p>
+          <p className="user-info">@swaroopvoleti</p>
           <p className="user-videos-count">21 Video</p>
           <div className="profile-followers-details">
             <p className="user-following">

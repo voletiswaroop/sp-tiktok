@@ -51,6 +51,7 @@
   background: #eee;
   font-size: 14px;
   display: flex;
+  align-items: center;
 }
 
 .nonloggedinuser-profile-wrapper .user-videos-count i {

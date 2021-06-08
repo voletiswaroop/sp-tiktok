@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './nonLoggedInUserProfile.css'
-import ProfilePic from '../../assets/images/profile.png'
+import ProfilePic from '../../assets/images/profile.jpg'
 import Tabs from '../Tabs/Tabs'
 import Panel from '../Tabs/Panel'
 
@@ -18,13 +18,13 @@ export default class nonLoggedInUserProfile extends Component {
         </div>
         <div className="user-details">
           <img src={ProfilePic} alt="Swaroop gupta voleti" />
-          <p className="user-info">@swaroopravs</p>
-          <p className="user-videos-count"><i className="fas fa-check-circle"></i>popular creator</p>
+          <p className="user-info">@swaroopvoleti</p>
+          <p className="user-videos-count"><i className="fas fa-check-circle"></i>Popular creator</p>
           <div className="profile-followers-details">
             <p className="user-following">
-              <span className="count">20</span> Following</p>
-            <p className="user-followers"><span className="count">15.12m</span> Followers</p>
-            <p className="user-total-likes"><span className="count">15.20m</span> Likes</p>
+              <span className="count">20</span>Following</p>
+            <p className="user-followers"><span className="count">15.12m</span>Followers</p>
+            <p className="user-total-likes"><span className="count">15.20m</span>Likes</p>
           </div>
           <div className="profile-settings">
             <div className="edit-profile">Message</div>

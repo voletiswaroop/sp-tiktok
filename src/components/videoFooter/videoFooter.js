@@ -6,7 +6,7 @@ export default class videoFooter extends Component {
     return (
       <section className="user-track-wrapper">
         <div className="user-track-container">
-          <p className="user-info">@swaroopravs</p>
+          <p className="user-info">@swaroopvoleti</p>
           <p className="video-desc">#dance #slowmotion</p>
           <span className="track-info"><i className="fas fa-music"></i><marquee scrollamount="4" className="track-name">ButtaBomma Buttab... Sound-by SP...</marquee></span>
         </div>

@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/sp-tiktok/static/css/main.a2d98a89.chunk.css",
-    "main.js": "/sp-tiktok/static/js/main.c57f5537.chunk.js",
-    "main.js.map": "/sp-tiktok/static/js/main.c57f5537.chunk.js.map",
-    "runtime-main.js": "/sp-tiktok/static/js/runtime-main.85ded9cf.js",
-    "runtime-main.js.map": "/sp-tiktok/static/js/runtime-main.85ded9cf.js.map",
-    "static/js/2.a5b103a2.chunk.js": "/sp-tiktok/static/js/2.a5b103a2.chunk.js",
-    "static/js/2.a5b103a2.chunk.js.map": "/sp-tiktok/static/js/2.a5b103a2.chunk.js.map",
-    "index.html": "/sp-tiktok/index.html",
-    "precache-manifest.d737b774dcffe504d1a5eb737f41865d.js": "/sp-tiktok/precache-manifest.d737b774dcffe504d1a5eb737f41865d.js",
-    "service-worker.js": "/sp-tiktok/service-worker.js",
-    "static/css/main.a2d98a89.chunk.css.map": "/sp-tiktok/static/css/main.a2d98a89.chunk.css.map",
-    "static/js/2.a5b103a2.chunk.js.LICENSE.txt": "/sp-tiktok/static/js/2.a5b103a2.chunk.js.LICENSE.txt",
-    "static/media/1.jpg": "/sp-tiktok/static/media/1.22d52aa3.jpg",
-    "static/media/2.jpg": "/sp-tiktok/static/media/2.faf59818.jpg",
-    "static/media/App.css": "/sp-tiktok/static/media/GothamHTF-Book.fae9356a.woff",
-    "static/media/profile.jpg": "/sp-tiktok/static/media/profile.8c2e3dee.jpg"
+    "main.css": "/tiktok-clone/static/css/main.a9979b3b.chunk.css",
+    "main.js": "/tiktok-clone/static/js/main.c57f5537.chunk.js",
+    "main.js.map": "/tiktok-clone/static/js/main.c57f5537.chunk.js.map",
+    "runtime-main.js": "/tiktok-clone/static/js/runtime-main.1756b18c.js",
+    "runtime-main.js.map": "/tiktok-clone/static/js/runtime-main.1756b18c.js.map",
+    "static/js/2.a5b103a2.chunk.js": "/tiktok-clone/static/js/2.a5b103a2.chunk.js",
+    "static/js/2.a5b103a2.chunk.js.map": "/tiktok-clone/static/js/2.a5b103a2.chunk.js.map",
+    "index.html": "/tiktok-clone/index.html",
+    "precache-manifest.ea194a9ba09317e8c967fa135233b7c5.js": "/tiktok-clone/precache-manifest.ea194a9ba09317e8c967fa135233b7c5.js",
+    "service-worker.js": "/tiktok-clone/service-worker.js",
+    "static/css/main.a9979b3b.chunk.css.map": "/tiktok-clone/static/css/main.a9979b3b.chunk.css.map",
+    "static/js/2.a5b103a2.chunk.js.LICENSE.txt": "/tiktok-clone/static/js/2.a5b103a2.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/tiktok-clone/static/media/1.22d52aa3.jpg",
+    "static/media/2.jpg": "/tiktok-clone/static/media/2.faf59818.jpg",
+    "static/media/App.css": "/tiktok-clone/static/media/GothamHTF-Book.fae9356a.woff",
+    "static/media/profile.jpg": "/tiktok-clone/static/media/profile.8c2e3dee.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.85ded9cf.js",
+    "static/js/runtime-main.1756b18c.js",
     "static/js/2.a5b103a2.chunk.js",
-    "static/css/main.a2d98a89.chunk.css",
+    "static/css/main.a9979b3b.chunk.css",
     "static/js/main.c57f5537.chunk.js"
   ]
 }
